@@ -1,0 +1,114 @@
+﻿1. What is Emmet?
+Web developers utilise a toolset called Emmet to streamline the HTML and CSS workflow. Because it offers HTML and CSS shorthand syntax, developers may write code more rapidly and effectively. React and other web development environments frequently employ Emmet.
+
+
+
+
+For writing JSX (Javascript XML), a syntax extension of javascript with an appearance akin to XML or HTML, emmet is helpful in react. React components are often defined using JSX. Emmet enables you to construct expressive and basic JSX code.
+
+
+
+
+
+
+
+
+
+
+
+
+2. A library and a framework are not the same thing.
+
+
+Library:
+
+
+Our application's flow is under our control.
+
+
+A library's functions and methods are available for use whenever needed.
+
+
+Generally speaking, libraries are collections of functions that we can utilise to carry out particular tasks.
+One such example is the DOM manipulation library jQuery.
+
+
+
+
+
+
+Structure:
+
+
+The way our application runs is managed by the framework.
+
+
+The framework calls our code whenever a set of circumstances is met.
+
+
+Frameworks provide our application a framework and are more thorough.
+
+
+For instance, the web application frameworks Angular and React.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. What is the CDN? Why do we employ it?
+The term Content Delivery Network (CDN) is used. It is a geographically dispersed network of servers designed to more effectively provide web content to consumers, including images, stylesheets, scripts, and other associated files. Serving material from servers closer to the user's location reduces latency and speeds up web page loading, which is the main goal of a content delivery network (CDN).
+
+
+By increasing our React apps' overall performance and loading time for users, using a CDN in React optimises the delivery of React-related files. Through a CDN, React and ReactDOM are both accessible.
+
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">} <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+
+
+
+
+4. What gives React its name?
+React gets its name from the fact that it "reacts" fast to changes without requiring a complete page reload. To update portions of a webpage quickly, it makes advantage of the virtual DOM. It is composed of parts that respond and modify the DOM to provide the intended result.
+
+
+
+
+5. In the script tag, what does cross origin mean?
+When a script file loads from a domain (origin) other than the one hosting the webpage, this is referred to as cross origin. In order to mitigate potential security threats like cross-site scripting attacks, browsers have security features that prohibit scripts from making requests or accessing resources from other origins.
+
+
+The server needs to add the necessary Cross Origin Resource Sharing (CORS) headers to show that the script is permitted in order to load a script from an alternate origin. If not, the browser can prevent the script from loading.
+
+
+
+
+
+
+
+
+6. How do React and React DOM vary from each other?
+React DOM is a particular package within React that allows React to connect with the Document Object Model (DOM), allowing React to change and update the actual HTML components on a web page. React is a JavaScript library for creating user interfaces.
+
+
+
+
+
+
+7. How do the react.development.js and react.production.js files change when using a CDN?
+We can enable and use the React developer tools and debugging environments that are linked to the source code in development mode (react.development.js). Additionally, we can make use of the development environment's many functions, which will aid in code debugging. Compared to the production mode, the developer mode is more developer-friendly. Because it is packed with various faults and warnings that are far more useful for the developer to debug the code via CDN, it is larger than the production version.
+
+
+Resources are compressed in the production mode (react.production.js) to minimize the size of the application; this is not the case in the development mode. There will be considerably better performance.
